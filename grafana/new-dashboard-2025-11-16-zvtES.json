@@ -61,9 +61,11 @@
         },
         "id": 1,
         "options": {
-          "minVizHeight": 75,
-          "minVizWidth": 75,
+          "colorMode": "value",
+          "graphMode": "area",
+          "justifyMode": "auto",
           "orientation": "auto",
+          "percentChangeColorMode": "standard",
           "reduceOptions": {
             "calcs": [
               "lastNotNull"
@@ -71,9 +73,9 @@
             "fields": "",
             "values": false
           },
-          "showThresholdLabels": false,
-          "showThresholdMarkers": true,
-          "sizing": "auto"
+          "showPercentChange": false,
+          "textMode": "auto",
+          "wideLayout": true
         },
         "pluginVersion": "12.2.0-16979757807",
         "targets": [
@@ -90,7 +92,7 @@
           }
         ],
         "title": "New panel",
-        "type": "gauge"
+        "type": "stat"
       }
     ],
     "preload": false,
