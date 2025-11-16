@@ -113,14 +113,10 @@
               "type": "prometheus",
               "uid": "df4aabhgk4a2oa"
             },
-            "editorMode": "code",
-            "expr": "(1 - avg(rate(node_cpu_seconds_total{mode=\"idle\"}[5m]))) * 100\n",
-            "legendFormat": "__auto",
-            "range": true,
             "refId": "A"
           }
         ],
-        "title": "CPU Usage",
+        "title": "New panel",
         "type": "timeseries"
       }
     ],
