@@ -121,7 +121,7 @@
           }
         ],
         "title": "CPU Usage",
-        "type": "timeseries"
+        "type": "gauge"
       }
     ],
     "preload": false,
