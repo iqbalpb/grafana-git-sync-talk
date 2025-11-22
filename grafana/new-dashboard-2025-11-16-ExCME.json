@@ -117,7 +117,7 @@
           }
         ],
         "title": "New panel",
-        "type": "timeseries"
+        "type": "gauge"
       }
     ],
     "preload": false,
